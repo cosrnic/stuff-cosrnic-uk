@@ -1,0 +1,835 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>TF2 - Items</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body onload="loadColor()">
+    <div class="content">
+        <h1>TF2 Item List thing</h1>
+        <br />
+        
+    </div>
+
+    <div class="popup">
+        <button id="close">&times;</button>
+        <h1>PLEASE NOTE:</h1>
+        <p>This website is a WIP, it wont contain everything yet.<br />the github is linked below!</p>
+        <a href="https://github.com/cosrnic/stuff-cosrnic-uk" target="_blank" style="font-size: 25px;">Github</a>
+    </div>
+
+    <div class="cards">
+        <h1>Scout Weapons</h1>
+    <div class="card weapons" onclick="changeColor(this, 0)">
+        <img src="https://wiki.teamfortress.com/w/images/thumb/8/82/Back_Scratcher.png/250px-Back_Scratcher.png" alt="Avatar" >
+        <div class="card-container">
+            <h1 class="card-title">Back Scratcher</h1>
+        </div>
+    </div>
+    <div class="card weapons" onclick="changeColor(this, 1)">
+        <img src="https://wiki.teamfortress.com/w/images/thumb/7/79/Flying_Guillotine.png/250px-Flying_Guillotine.png" alt="Avatar" >
+        <div class="card-container">
+            <h1 class="card-title">Flying Guillotine</h1>
+        </div>
+    </div>
+    <div class="card special weapons" onclick="changeColor(this, 2)">
+        <img src="https://wiki.teamfortress.com/w/images/thumb/e/e8/Mutated_Milk.png/250px-Mutated_Milk.png" alt="Avatar">
+        <div class="card-container">
+            <h1 class="card-title">Mutated Milk </h1>
+        </div>
+    </div>
+    <div class="card weapons" onclick="changeColor(this, 3)">
+        <img src="https://wiki.teamfortress.com/w/images/thumb/0/0e/RED_Unarmed_Combat.png/250px-RED_Unarmed_Combat.png" alt="Avatar" >
+        <div class="card-container">
+            <h1 class="card-title">Unarmed Combat</h1>
+        </div>
+    </div>
+    <h1>Scout Hats</h1>
+    <div class="card special" onclick="changeColor(this, 4)">
+        <img src="https://wiki.teamfortress.com/w/images/thumb/9/97/Item_icon_Batter%27s_Helmet.png/75px-Item_icon_Batter%27s_Helmet.png" alt="Avatar" >
+        <div class="card-container">
+            <h1 class="card-title">Batter’s Helmet</h1>
+        </div>
+    </div>
+    <div class="card" onclick="changeColor(this, 5)">
+        <img src="https://wiki.teamfortress.com/w/images/thumb/2/27/Item_icon_Baseball_Bill%27s_Sports_Shine.png/75px-Item_icon_Baseball_Bill%27s_Sports_Shine.png" alt="Avatar">
+        <div class="card-container">
+            <h1 class="card-title">Baseball Bill’s Sports Shine</h1>
+        </div>
+    </div>
+    <div class="card" onclick="changeColor(this, 6)">
+        <img src="https://wiki.teamfortress.com/w/images/thumb/f/f9/Item_icon_Bonk_Helm.png/75px-Item_icon_Bonk_Helm.png" alt="Avatar" >
+        <div class="card-container">
+            <h1 class="card-title">Bonk Helm </h1>
+        </div>
+    </div>
+    <div class="card" onclick="changeColor(this, 7)">
+        <img src="https://wiki.teamfortress.com/w/images/thumb/8/8d/Item_icon_Ye_Olde_Baker_Boy.png/75px-Item_icon_Ye_Olde_Baker_Boy.png" alt="Avatar" >
+        <div class="card-container">
+            <h1 class="card-title">Ye Olde Baker Boy</h1>
+        </div>
+    </div>
+    <div class="card" onclick="changeColor(this, 8)">
+        <img src="https://wiki.teamfortress.com/w/images/thumb/b/b2/Item_icon_Troublemaker%27s_Tossle_Cap.png/75px-Item_icon_Troublemaker%27s_Tossle_Cap.png" alt="Avatar" >
+        <div class="card-container">
+            <h1 class="card-title">Troublemaker’s Tossle cap</h1>
+        </div>
+    </div>
+    <div class="card" onclick="changeColor(this, 9)">
+        <img src="https://wiki.teamfortress.com/w/images/thumb/2/26/Item_icon_Whoopee_Cap.png/75px-Item_icon_Whoopee_Cap.png" alt="Avatar" >
+        <div class="card-container">
+            <h1 class="card-title">Whoopee Cap</h1>
+        </div>
+    </div>
+    <div class="card" onclick="changeColor(this, 10)">
+        <img src="https://wiki.teamfortress.com/w/images/thumb/a/a9/Item_icon_Bombing_Run.png/75px-Item_icon_Bombing_Run.png" alt="Avatar" >
+        <div class="card-container">
+            <h1 class="card-title">Bombing Run</h1>
+        </div>
+    </div>
+    <div class="card" onclick="changeColor(this, 11)">
+        <img src="https://wiki.teamfortress.com/w/images/thumb/0/0b/Item_icon_Milkman.png/75px-Item_icon_Milkman.png" alt="Avatar">
+        <div class="card-container">
+            <h1 class="card-title">Milkman</h1>
+        </div>
+    </div>
+    <div class="card" onclick="changeColor(this, 12)">
+        <img src="https://wiki.teamfortress.com/w/images/thumb/2/2a/Item_icon_Flipped_Trilby.png/75px-Item_icon_Flipped_Trilby.png" alt="Avatar" >
+        <div class="card-container">
+            <h1 class="card-title">Flipped Trilby </h1>
+        </div>
+    </div>
+    <div class="card" onclick="changeColor(this, 13)">
+        <img src="https://wiki.teamfortress.com/w/images/thumb/4/43/Item_icon_Hero%27s_Tail.png/75px-Item_icon_Hero%27s_Tail.png" alt="Avatar" >
+        <div class="card-container">
+            <h1 class="card-title">Hero’s Tail</h1>
+        </div>
+    </div>
+    <div class="card" onclick="changeColor(this, 14)">
+        <img src="https://wiki.teamfortress.com/w/images/thumb/8/8c/Item_icon_Planeswalker_Goggles.png/75px-Item_icon_Planeswalker_Goggles.png" alt="Avatar" >
+        <div class="card-container">
+            <h1 class="card-title">Planeswalker Googles</h1>
+        </div>
+    </div>
+    <div class="card" onclick="changeColor(this, 15)">
+        <img src="https://wiki.teamfortress.com/w/images/thumb/a/a7/Item_icon_Bonk_Boy.png/75px-Item_icon_Bonk_Boy.png" alt="Avatar" >
+        <div class="card-container">
+            <h1 class="card-title">Bonk Boy</h1>
+        </div>
+    </div>
+    <div class="card" onclick="changeColor(this, 16)">
+        <img src="https://wiki.teamfortress.com/w/images/thumb/5/58/Item_icon_B-ankh%21.png/75px-Item_icon_B-ankh%21.png" alt="Avatar" >
+        <div class="card-container">
+            <h1 class="card-title">B-ankh!</h1>
+        </div>
+    </div>
+    <div class="card" onclick="changeColor(this, 17)">
+        <img src="https://wiki.teamfortress.com/w/images/thumb/7/7b/Item_icon_Futankhamun.png/75px-Item_icon_Futankhamun.png" alt="Avatar" >
+        <div class="card-container">
+            <h1 class="card-title">Futankhamun</h1>
+        </div>
+    </div>
+    <div class="card" onclick="changeColor(this, 18)">
+        <img src="https://wiki.teamfortress.com/w/images/thumb/e/ec/Item_icon_Wrap_Battler.png/75px-Item_icon_Wrap_Battler.png" alt="Avatar" >
+        <div class="card-container">
+            <h1 class="card-title">Wrap Battler</h1>
+        </div>
+    </div>
+    <div class="card" onclick="changeColor(this, 19)">
+        <img src="https://wiki.teamfortress.com/w/images/thumb/2/25/Item_icon_Big_Elfin_Deal.png/75px-Item_icon_Big_Elfin_Deal.png" alt="Avatar" >
+        <div class="card-container">
+            <h1 class="card-title">Big Elfin Deal</h1>
+        </div>
+    </div>
+    <div class="card" onclick="changeColor(this, 20)">
+        <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/4/48/Team_Fortress_2_style_logo.svg/2048px-Team_Fortress_2_style_logo.svg.png" alt="Avatar">
+        <div class="card-container">
+            <h1 class="card-title">PLACEHOLDER</h1>
+            <p>Broken Number</p>
+        </div>
+    </div>
+    <div class="card" onclick="changeColor(this, 21)">
+        <img src="https://wiki.teamfortress.com/w/images/thumb/f/fa/Item_icon_Boston_Boom-Bringer.png/75px-Item_icon_Boston_Boom-Bringer.png" alt="Avatar">
+        <div class="card-container">
+            <h1 class="card-title">Boston Boom-Bringer</h1>
+        </div>
+    </div>
+    
+    <div class="card" onclick="changeColor(this, 22)">
+        <img src="https://wiki.teamfortress.com/w/images/thumb/3/3e/Item_icon_Fast_Learner.png/75px-Item_icon_Fast_Learner.png" alt="Avatar" >
+        <div class="card-container">
+            <h1 class="card-title">Fast Leaner </h1>
+        </div>
+    </div>
+    <div class="card" onclick="changeColor(this, 23)">
+        <img src="https://wiki.teamfortress.com/w/images/thumb/8/89/Item_icon_Front_Runner.png/75px-Item_icon_Front_Runner.png" alt="Avatar" >
+        <div class="card-container">
+            <h1 class="card-title">Front Runner</h1>
+        </div>
+    </div>
+    <div class="card" onclick="changeColor(this, 24)">
+        <img src="https://wiki.teamfortress.com/w/images/thumb/a/a0/Item_icon_Cross-Comm_Express.png/75px-Item_icon_Cross-Comm_Express.png" alt="Avatar" >
+        <div class="card-container">
+            <h1 class="card-title">Cross-Comm Express</h1>
+        </div>
+    </div>
+    <div class="card" onclick="changeColor(this, 25)">
+        <img src="https://wiki.teamfortress.com/w/images/thumb/a/a9/Item_icon_Dillinger%27s_Duffel.png/75px-Item_icon_Dillinger%27s_Duffel.png" alt="Avatar" >
+        <div class="card-container">
+            <h1 class="card-title">Dillinger’s Duffel</h1>
+        </div>
+    </div>
+    <div class="card" onclick="changeColor(this, 26)">
+        <img src="https://wiki.teamfortress.com/w/images/thumb/3/3b/Item_icon_Fed-Fightin%27_Fedora.png/75px-Item_icon_Fed-Fightin%27_Fedora.png" alt="Avatar" >
+        <div class="card-container">
+            <h1 class="card-title">Fed-Fightin’ Fedora</h1>
+        </div>
+    </div>
+    <div class="card" onclick="changeColor(this, 27)">
+        <img src="https://wiki.teamfortress.com/w/images/thumb/5/5d/Item_icon_Champ_Stamp.png/75px-Item_icon_Champ_Stamp.png" alt="Avatar">
+        <div class="card-container">
+            <h1 class="card-title">Champ-Stamp</h1>
+        </div>
+    </div>
+    <div class="card" onclick="changeColor(this, 28)">
+        <img src="https://wiki.teamfortress.com/w/images/thumb/b/b1/Item_icon_Triad_Trinket.png/75px-Item_icon_Triad_Trinket.png" alt="Avatar" >
+        <div class="card-container">
+            <h1 class="card-title">Triad Trinket </h1>
+        </div>
+    </div>
+    <div class="card" onclick="changeColor(this, 29)">
+        <img src="https://wiki.teamfortress.com/w/images/thumb/0/09/Item_icon_Void_Monk_Hair.png/75px-Item_icon_Void_Monk_Hair.png" alt="Avatar" >
+        <div class="card-container">
+            <h1 class="card-title">Void Monk Hair</h1>
+        </div>
+    </div>
+    <div class="card" onclick="changeColor(this, 30)">
+        <img src="https://wiki.teamfortress.com/w/images/thumb/6/6e/Item_icon_Robot_Running_Man.png/75px-Item_icon_Robot_Running_Man.png" alt="Avatar" >
+        <div class="card-container">
+            <h1 class="card-title">Robot Running Man</h1>
+        </div>
+    </div>
+    <div class="card" onclick="changeColor(this, 31)">
+        <img src="https://wiki.teamfortress.com/w/images/thumb/0/03/Item_icon_Crafty_Hair.png/75px-Item_icon_Crafty_Hair.png" alt="Avatar" >
+        <div class="card-container">
+            <h1 class="card-title">Crafty Hair</h1>
+        </div>
+    </div>
+    <div class="card" onclick="changeColor(this, 32)">
+        <img src="https://wiki.teamfortress.com/w/images/thumb/d/da/Item_icon_Track_Terrorizer.png/75px-Item_icon_Track_Terrorizer.png" alt="Avatar" >
+        <div class="card-container">
+            <h1 class="card-title">Track Terrorizer </h1>
+        </div>
+    </div>
+    <div class="card" onclick="changeColor(this, 33)">
+        <img src="https://wiki.teamfortress.com/w/images/thumb/6/6f/Item_icon_Spooky_Sleeves.png/75px-Item_icon_Spooky_Sleeves.png" alt="Avatar" >
+        <div class="card-container">
+            <h1 class="card-title">Spooky Sleeves</h1>
+        </div>
+    </div>
+    <div class="card" onclick="changeColor(this, 34)">
+        <img src="https://wiki.teamfortress.com/w/images/thumb/6/68/Item_icon_Spooky_Shoes.png/75px-Item_icon_Spooky_Shoes.png" alt="Avatar" >
+        <div class="card-container">
+            <h1 class="card-title">Spooky Shoes</h1>
+        </div>
+    </div>
+    <div class="card" onclick="changeColor(this, 35)">
+        <img src="https://wiki.teamfortress.com/w/images/thumb/0/0e/Item_icon_Digit_Divulger.png/75px-Item_icon_Digit_Divulger.png" alt="Avatar" >
+        <div class="card-container">
+            <h1 class="card-title">Digit Divulger</h1>
+        </div>
+    </div>
+    <div class="card " onclick="changeColor(this, 36)">
+        <img src="https://wiki.teamfortress.com/w/images/thumb/8/85/Item_icon_Flight_of_the_Monarch.png/75px-Item_icon_Flight_of_the_Monarch.png" alt="Avatar" >
+        <div class="card-container">
+            <h1 class="card-title">Flight of the Monarch</h1>
+        </div>
+    </div>
+    <div class="card" onclick="changeColor(this, 37)">
+        <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/4/48/Team_Fortress_2_style_logo.svg/2048px-Team_Fortress_2_style_logo.svg.png" alt="Avatar">
+        <div class="card-container">
+            <h1 class="card-title">PLACEHOLDER</h1>
+            <p>Broken Number</p>
+        </div>
+    </div>
+    <div class="card" onclick="changeColor(this, 38)">
+        <img src="https://wiki.teamfortress.com/w/images/thumb/b/b0/Item_icon_Flunkyware.png/75px-Item_icon_Flunkyware.png" alt="Avatar" >
+        <div class="card-container">
+            <h1 class="card-title">Flunkyware </h1>
+        </div>
+    </div>
+    <div class="card" onclick="changeColor(this, 39)">
+        <img src="https://wiki.teamfortress.com/w/images/thumb/a/a4/RED_Hanger-On_Hood_Without_Headphones.png/80px-RED_Hanger-On_Hood_Without_Headphones.png" alt="Avatar" >
+        <div class="card-container">
+            <h1 class="card-title">Hunger-On Hood</h1>
+        </div>
+    </div>
+    <div class="card" onclick="changeColor(this, 40)">
+        <img src="https://wiki.teamfortress.com/w/images/thumb/5/5c/Item_icon_Mutton_Mann.png/75px-Item_icon_Mutton_Mann.png" alt="Avatar" >
+        <div class="card-container">
+            <h1 class="card-title">Mutton Mann</h1>
+        </div>
+    </div>
+    <div class="card" onclick="changeColor(this, 41)">
+        <img src="https://wiki.teamfortress.com/w/images/thumb/e/e9/Item_icon_Buck_Turner_All-Stars.png/75px-Item_icon_Buck_Turner_All-Stars.png" alt="Avatar" >
+        <div class="card-container">
+            <h1 class="card-title">Buck Turner All-Stars</h1>
+        </div>
+    </div>
+    <div class="card" onclick="changeColor(this, 42)">
+        <img src="https://wiki.teamfortress.com/w/images/thumb/7/70/Item_icon_Tomb_Wrapper.png/75px-Item_icon_Tomb_Wrapper.png" alt="Avatar" >
+        <div class="card-container">
+            <h1 class="card-title">Tomb Wrapper</h1>
+        </div>
+    </div>
+    <div class="card" onclick="changeColor(this, 43)">
+        <img src="https://wiki.teamfortress.com/w/images/thumb/8/8a/Item_icon_Wilson_Weave.png/75px-Item_icon_Wilson_Weave.png" alt="Avatar">
+        <div class="card-container">
+            <h1 class="card-title">Wilson Weave</h1>
+        </div>
+    </div>
+    <div class="card" onclick="changeColor(this, 44)">
+        <img src="https://community.cloudflare.steamstatic.com/economy/image/fWFc82js0fmoRAP-qOIPu5THSWqfSmTELLqcUywGkijVjZULUrsm1j-9xgEZYwUeYgjhty1Xt8rpAeazCu8ZpNY095dQlzQzwlctbLq3Nm5kJALAAKQPD6dq8Fy6UHAxup8wBoSz8b5QcQrmt4XYc-57DF6Sp1w/360fx360f.png" alt="Avatar" >
+        <div class="card-container">
+            <h1 class="card-title">Bolt-Boy </h1>
+        </div>
+    </div>
+    <div class="card" onclick="changeColor(this, 45)">
+        <img src="https://wiki.teamfortress.com/w/images/thumb/d/d1/Item_icon_Bonk_Leadwear.png/75px-Item_icon_Bonk_Leadwear.png" alt="Avatar" >
+        <div class="card-container">
+            <h1 class="card-title">Leadwear</h1>
+        </div>
+    </div>
+    <div class="card" onclick="changeColor(this, 46)">
+        <img src="https://wiki.teamfortress.com/w/images/thumb/d/d2/Item_icon_Ye_Oiled_Baker_Boy.png/75px-Item_icon_Ye_Oiled_Baker_Boy.png" alt="Avatar" >
+        <div class="card-container">
+            <h1 class="card-title">Ye Oiled Baker Boy</h1>
+        </div>
+    </div>
+    <div class="card" onclick="changeColor(this, 47)">
+        <img src="https://wiki.teamfortress.com/w/images/thumb/8/87/Item_icon_Bacteria_Blocker.png/75px-Item_icon_Bacteria_Blocker.png" alt="Avatar" >
+        <div class="card-container">
+            <h1 class="card-title">Bacteria Blocker</h1>
+        </div>
+    </div>
+    <div class="card" onclick="changeColor(this, 48)">
+        <img src="https://wiki.teamfortress.com/w/images/thumb/2/2c/Item_icon_Beastly_Bonnet.png/75px-Item_icon_Beastly_Bonnet.png" alt="Avatar" >
+        <div class="card-container">
+            <h1 class="card-title">Beastly Bonnet</h1>
+        </div>
+    </div>
+    <div class="card" onclick="changeColor(this, 49)">
+        <img src="https://wiki.teamfortress.com/w/images/thumb/8/8a/Item_icon_Cheet_Sheet.png/75px-Item_icon_Cheet_Sheet.png" alt="Avatar" >
+        <div class="card-container">
+            <h1 class="card-title">Cheet Sheet</h1>
+        </div>
+    </div>
+    <div class="card" onclick="changeColor(this, 50)">
+        <img src="https://wiki.teamfortress.com/w/images/thumb/7/70/Item_icon_Bigg_Mann_on_Campus.png/75px-Item_icon_Bigg_Mann_on_Campus.png" alt="Avatar" >
+        <div class="card-container">
+            <h1 class="card-title">Big Mann on Campus</h1>
+        </div>
+    </div>
+    <div class="card" onclick="changeColor(this, 51)">
+        <img src="https://wiki.teamfortress.com/w/images/thumb/8/87/Item_icon_Caffeine_Cooler.png/75px-Item_icon_Caffeine_Cooler.png" alt="Avatar" >
+        <div class="card-container">
+            <h1 class="card-title">Caffine Cooler</h1>
+        </div>
+    </div>
+    <div class="card " onclick="changeColor(this, 52)">
+        <img src="https://wiki.teamfortress.com/w/images/thumb/2/2a/Item_icon_Cool_Cat_Cardigan.png/75px-Item_icon_Cool_Cat_Cardigan.png" alt="Avatar" >
+        <div class="card-container">
+            <h1 class="card-title">Cool Cat Cardigan</h1>
+        </div>
+    </div>
+    <div class="card" onclick="changeColor(this, 53)">
+        <img src="https://wiki.teamfortress.com/w/images/thumb/6/6c/Item_icon_Delinquent%27s_Down_Vest.png/75px-Item_icon_Delinquent%27s_Down_Vest.png" alt="Avatar">
+        <div class="card-container">
+            <h1 class="card-title">Delinquent’s Down Vest</h1>
+        </div>
+    </div>
+    <div class="card" onclick="changeColor(this, 54)">
+        <img src="https://wiki.teamfortress.com/w/images/thumb/4/4d/Item_icon_Greased_Lightning.png/75px-Item_icon_Greased_Lightning.png" alt="Avatar" >
+        <div class="card-container">
+            <h1 class="card-title">Greased Lightning </h1>
+        </div>
+    </div>
+    <div class="card" onclick="changeColor(this, 55)">
+        <img src="https://wiki.teamfortress.com/w/images/thumb/4/45/Item_icon_Half-Pipe_Hurdler.png/75px-Item_icon_Half-Pipe_Hurdler.png" alt="Avatar" >
+        <div class="card-container">
+            <h1 class="card-title">Half-Pipe Hurdler</h1>
+        </div>
+    </div>
+    <div class="card" onclick="changeColor(this, 56)">
+        <img src="https://wiki.teamfortress.com/w/images/thumb/6/66/Item_icon_Macho_Mann.png/75px-Item_icon_Macho_Mann.png" alt="Avatar" >
+        <div class="card-container">
+            <h1 class="card-title">Macho-Mann</h1>
+        </div>
+    </div>
+    <div class="card" onclick="changeColor(this, 57)">
+        <img src="https://wiki.teamfortress.com/w/images/thumb/3/3d/Item_icon_Flapjack.png/75px-Item_icon_Flapjack.png" alt="Avatar" >
+        <div class="card-container">
+            <h1 class="card-title">Flapjack</h1>
+        </div>
+    </div>
+    <div class="card" onclick="changeColor(this, 58)">
+        <img src="https://wiki.teamfortress.com/w/images/thumb/4/4f/Item_icon_Weight_Room_Warmer.png/75px-Item_icon_Weight_Room_Warmer.png" alt="Avatar" >
+        <div class="card-container">
+            <h1 class="card-title">Weighted Room Warmer</h1>
+        </div>
+    </div>
+    <div class="card" onclick="changeColor(this, 59)">
+        <img src="https://wiki.teamfortress.com/w/images/thumb/5/55/Item_icon_Beep_Boy.png/75px-Item_icon_Beep_Boy.png" alt="Avatar">
+        <div class="card-container">
+            <h1 class="card-title">Beep Boy</h1>
+        </div>
+    </div>
+    <div class="card" onclick="changeColor(this, 60)">
+        <img src="https://wiki.teamfortress.com/w/images/thumb/f/fa/Item_icon_Frenchman%27s_Formals.png/75px-Item_icon_Frenchman%27s_Formals.png" alt="Avatar" >
+        <div class="card-container">
+            <h1 class="card-title">Frenchman’s Formals </h1>
+        </div>
+    </div>
+    <div class="card" onclick="changeColor(this, 61)">
+        <img src="https://wiki.teamfortress.com/w/images/thumb/5/5e/Item_icon_Faun_Feet.png/75px-Item_icon_Faun_Feet.png" alt="Avatar" >
+        <div class="card-container">
+            <h1 class="card-title">Faun Feet</h1>
+        </div>
+    </div>
+    <div class="card" onclick="changeColor(this, 62)">
+        <img src="https://wiki.teamfortress.com/w/images/thumb/9/96/Item_icon_Halloweiner.png/75px-Item_icon_Halloweiner.png" alt="Avatar" >
+        <div class="card-container">
+            <h1 class="card-title">Halloweiner</h1>
+        </div>
+    </div>
+    <div class="card" onclick="changeColor(this, 63)">
+        <img src="https://wiki.teamfortress.com/w/images/thumb/1/19/Item_icon_Horrific_Head_of_Hare.png/75px-Item_icon_Horrific_Head_of_Hare.png" alt="Avatar" >
+        <div class="card-container">
+            <h1 class="card-title">Horrific Head of Hare</h1>
+        </div>
+    </div>
+    <div class="card" onclick="changeColor(this, 64)">
+        <img src="https://wiki.teamfortress.com/w/images/thumb/7/7e/Item_icon_Hound%27s_Hood.png/75px-Item_icon_Hound%27s_Hood.png" alt="Avatar" >
+        <div class="card-container">
+            <h1 class="card-title">Hound’s Hood </h1>
+        </div>
+    </div>
+    <div class="card" onclick="changeColor(this, 65)">
+        <img src="https://wiki.teamfortress.com/w/images/thumb/9/92/Item_icon_Sprinting_Cephalopod.png/75px-Item_icon_Sprinting_Cephalopod.png" alt="Avatar" >
+        <div class="card-container">
+            <h1 class="card-title">Sprinting Cephalopod</h1>
+        </div>
+    </div>
+    <div class="card" onclick="changeColor(this, 66)">
+        <img src="https://wiki.teamfortress.com/w/images/thumb/e/e3/Item_icon_Terrier_Trousers.png/75px-Item_icon_Terrier_Trousers.png" alt="Avatar" >
+        <div class="card-container">
+            <h1 class="card-title">Terrier Trousers</h1>
+        </div>
+    </div>
+    <div class="card" onclick="changeColor(this, 67)">
+        <img src="https://wiki.teamfortress.com/w/images/thumb/1/12/Item_icon_Baphomet_Trotters.png/75px-Item_icon_Baphomet_Trotters.png" alt="Avatar" >
+        <div class="card-container">
+            <h1 class="card-title">Baphomet Trotters</h1>
+        </div>
+    </div>
+    <div class="card " onclick="changeColor(this, 68)">
+        <img src="https://wiki.teamfortress.com/w/images/thumb/8/8f/Item_icon_Chucklenuts.png/75px-Item_icon_Chucklenuts.png" alt="Avatar" >
+        <div class="card-container">
+            <h1 class="card-title">Chucklenuts</h1>
+        </div>
+    </div>
+    <div class="card" onclick="changeColor(this, 69)">
+        <img src="https://wiki.teamfortress.com/w/images/thumb/9/92/Item_icon_Little_Drummer_Mann.png/75px-Item_icon_Little_Drummer_Mann.png" alt="Avatar">
+        <div class="card-container">
+            <h1 class="card-title">Little Drummer Mann</h1>
+        </div>
+    </div>
+    <div class="card" onclick="changeColor(this, 70)">
+        <img src="https://wiki.teamfortress.com/w/images/thumb/9/99/Item_icon_Face_Plante.png/75px-Item_icon_Face_Plante.png" alt="Avatar" >
+        <div class="card-container">
+            <h1 class="card-title">Face Plante </h1>
+        </div>
+    </div>
+    <div class="card" onclick="changeColor(this, 71)">
+        <img src="https://wiki.teamfortress.com/w/images/thumb/3/30/Item_icon_Runner%27s_Warm-Up.png/75px-Item_icon_Runner%27s_Warm-Up.png" alt="Avatar" >
+        <div class="card-container">
+            <h1 class="card-title">Runners Warm-Up</h1>
+        </div>
+    </div>
+    <div class="card" onclick="changeColor(this, 72)">
+        <img src="https://wiki.teamfortress.com/w/images/thumb/f/f8/Item_icon_Scout_Shako.png/75px-Item_icon_Scout_Shako.png" alt="Avatar" >
+        <div class="card-container">
+            <h1 class="card-title">Scout Shako</h1>
+        </div>
+    </div>
+    <div class="card" onclick="changeColor(this, 73)">
+        <img src="https://wiki.teamfortress.com/w/images/thumb/0/09/Item_icon_Ticket_Boy.png/75px-Item_icon_Ticket_Boy.png" alt="Avatar" >
+        <div class="card-container">
+            <h1 class="card-title">Ticket Boy</h1>
+        </div>
+    </div>
+    <div class="card" onclick="changeColor(this, 74)">
+        <img src="https://wiki.teamfortress.com/w/images/thumb/d/d7/Item_icon_Sole_Saviors.png/75px-Item_icon_Sole_Saviors.png" alt="Avatar" >
+        <div class="card-container">
+            <h1 class="card-title">Sole Saviors</h1>
+        </div>
+    </div>
+    <div class="card" onclick="changeColor(this, 75)">
+        <img src="https://wiki.teamfortress.com/w/images/thumb/3/31/Item_icon_Argyle_Ace.png/75px-Item_icon_Argyle_Ace.png" alt="Avatar">
+        <div class="card-container">
+            <h1 class="card-title">Argyle Ace</h1>
+        </div>
+    </div>
+    <div class="card" onclick="changeColor(this, 76)">
+        <img src="https://wiki.teamfortress.com/w/images/thumb/9/99/Item_icon_Frickin%27_Sweet_Ninja_Hood.png/75px-Item_icon_Frickin%27_Sweet_Ninja_Hood.png" alt="Avatar" >
+        <div class="card-container">
+            <h1 class="card-title">Frickin’ Sweet Ninja Hood </h1>
+        </div>
+    </div>
+    <div class="card" onclick="changeColor(this, 77)">
+        <img src="https://wiki.teamfortress.com/w/images/thumb/2/2e/Item_icon_Paisley_Pro.png/75px-Item_icon_Paisley_Pro.png" alt="Avatar" >
+        <div class="card-container">
+            <h1 class="card-title">Paisley Pro</h1>
+        </div>
+    </div>
+    <div class="card" onclick="changeColor(this, 78)">
+        <img src="https://wiki.teamfortress.com/w/images/thumb/a/af/Item_icon_Pomade_Prince.png/75px-Item_icon_Pomade_Prince.png" alt="Avatar" >
+        <div class="card-container">
+            <h1 class="card-title">Pomade Prince</h1>
+        </div>
+    </div>
+    <div class="card" onclick="changeColor(this, 79)">
+        <img src="https://wiki.teamfortress.com/w/images/thumb/c/c8/Item_icon_Red_Socks.png/75px-Item_icon_Red_Socks.png" alt="Avatar" >
+        <div class="card-container">
+            <h1 class="card-title">Red Socks</h1>
+        </div>
+    </div>
+    <div class="card" onclick="changeColor(this, 80)">
+        <img src="https://wiki.teamfortress.com/w/images/thumb/2/27/Item_icon_Southie_Shinobi.png/75px-Item_icon_Southie_Shinobi.png" alt="Avatar" >
+        <div class="card-container">
+            <h1 class="card-title">Southie Shinobi</h1>
+        </div>
+    </div>
+    <div class="card" onclick="changeColor(this, 81)">
+        <img src="https://wiki.teamfortress.com/w/images/thumb/8/83/Item_icon_Alien_Cranium.png/75px-Item_icon_Alien_Cranium.png" alt="Avatar" >
+        <div class="card-container">
+            <h1 class="card-title">Alien Cranium</h1>
+        </div>
+    </div>
+    <div class="card" onclick="changeColor(this, 82)">
+        <img src="https://wiki.teamfortress.com/w/images/thumb/5/53/Item_icon_Biomech_Backpack.png/75px-Item_icon_Biomech_Backpack.png" alt="Avatar" >
+        <div class="card-container">
+            <h1 class="card-title">Biomech Backpack</h1>
+        </div>
+    </div>
+    <div class="card" onclick="changeColor(this, 83)">
+        <img src="https://wiki.teamfortress.com/w/images/thumb/4/46/Item_icon_Head_Hunter.png/75px-Item_icon_Head_Hunter.png" alt="Avatar" >
+        <div class="card-container">
+            <h1 class="card-title">Head Hunter</h1>
+        </div>
+    </div>
+    <div class="card " onclick="changeColor(this, 84)">
+        <img src="https://wiki.teamfortress.com/w/images/thumb/0/0d/Item_icon_Xeno_Suit.png/75px-Item_icon_Xeno_Suit.png" alt="Avatar" >
+        <div class="card-container">
+            <h1 class="card-title">Xeno Suit</h1>
+        </div>
+    </div>
+    <div class="card" onclick="changeColor(this, 85)">
+        <img src="https://wiki.teamfortress.com/w/images/thumb/6/66/Item_icon_Thirst_Blood.png/75px-Item_icon_Thirst_Blood.png" alt="Avatar">
+        <div class="card-container">
+            <h1 class="card-title">Thirst Blood</h1>
+        </div>
+    </div>
+    <div class="card" onclick="changeColor(this, 86)">
+        <img src="https://wiki.teamfortress.com/w/images/thumb/2/23/Item_icon_Claws_And_Infect.png/75px-Item_icon_Claws_And_Infect.png" alt="Avatar" >
+        <div class="card-container">
+            <h1 class="card-title">Claws and Infect  </h1>
+        </div>
+    </div>
+    <div class="card" onclick="changeColor(this, 87)">
+        <img src="https://wiki.teamfortress.com/w/images/thumb/d/d9/Item_icon_Crazy_Legs.png/75px-Item_icon_Crazy_Legs.png" alt="Avatar" >
+        <div class="card-container">
+            <h1 class="card-title">Crazy Legs</h1>
+        </div>
+    </div>
+    <div class="card" onclick="changeColor(this, 88)">
+        <img src="https://wiki.teamfortress.com/w/images/thumb/d/d4/Item_icon_Fowl_Fists.png/75px-Item_icon_Fowl_Fists.png" alt="Avatar" >
+        <div class="card-container">
+            <h1 class="card-title">Fowl Fists</h1>
+        </div>
+    </div>
+    <div class="card" onclick="changeColor(this, 89)">
+        <img src="https://wiki.teamfortress.com/w/images/thumb/8/85/Item_icon_Nugget_Noggin.png/75px-Item_icon_Nugget_Noggin.png" alt="Avatar" >
+        <div class="card-container">
+            <h1 class="card-title">Nugget Noggin</h1>
+        </div>
+    </div>
+    <div class="card" onclick="changeColor(this, 90)">
+        <img src="https://wiki.teamfortress.com/w/images/thumb/3/34/Item_icon_Talon_Trotters.png/75px-Item_icon_Talon_Trotters.png" alt="Avatar" >
+        <div class="card-container">
+            <h1 class="card-title">Talon Trotters</h1>
+        </div>
+    </div>
+    <div class="card special2" onclick="changeColor(this, 91)">
+        <img src="https://wiki.teamfortress.com/w/images/thumb/6/62/Item_icon_Brooklyn_Booties.png/75px-Item_icon_Brooklyn_Booties.png" alt="Avatar">
+        <div class="card-container">
+            <h1 class="card-title">Brooklyn Booties</h1>
+            <p>Early EOTL Supporter</p>
+        </div>
+    </div>
+    <div class="card special2" onclick="changeColor(this, 92)">
+        <img src="https://wiki.teamfortress.com/w/images/thumb/4/4e/Item_icon_Thermal_Tracker.png/75px-Item_icon_Thermal_Tracker.png" alt="Avatar" >
+        <div class="card-container">
+            <h1 class="card-title">Thermal Tracker </h1>
+            <p>Early EOTL Supporter</p>
+        </div>
+    </div>
+    <div class="card" onclick="changeColor(this, 93)">
+        <img src="https://wiki.teamfortress.com/w/images/thumb/8/8a/Item_icon_Courtier%27s_Collar.png/75px-Item_icon_Courtier%27s_Collar.png" alt="Avatar" >
+        <div class="card-container">
+            <h1 class="card-title">Courtier’s Collar</h1>
+        </div>
+    </div>
+    <div class="card" onclick="changeColor(this, 94)">
+        <img src="https://wiki.teamfortress.com/w/images/thumb/e/e9/Item_icon_Harlequin%27s_Hooves.png/75px-Item_icon_Harlequin%27s_Hooves.png" alt="Avatar" >
+        <div class="card-container">
+            <h1 class="card-title">Harlequin’s Hooves</h1>
+        </div>
+    </div>
+    <div class="card" onclick="changeColor(this, 95)">
+        <img src="https://wiki.teamfortress.com/w/images/thumb/b/b8/Item_icon_Mountebank%27s_Masque.png/75px-Item_icon_Mountebank%27s_Masque.png" alt="Avatar" >
+        <div class="card-container">
+            <h1 class="card-title">Mountebank’s Masque</h1>
+        </div>
+    </div>
+    <div class="card" onclick="changeColor(this, 96)">
+        <img src="https://wiki.teamfortress.com/w/images/thumb/2/2f/Item_icon_Bootenkhamuns.png/75px-Item_icon_Bootenkhamuns.png" alt="Avatar" >
+        <div class="card-container">
+            <h1 class="card-title">Bootenkhamuns </h1>
+        </div>
+    </div>
+    <div class="card" onclick="changeColor(this, 97)">
+        <img src="https://wiki.teamfortress.com/w/images/thumb/e/e1/Item_icon_Orion%27s_Belt.png/75px-Item_icon_Orion%27s_Belt.png" alt="Avatar" >
+        <div class="card-container">
+            <h1 class="card-title">Orion’s Belt</h1>
+        </div>
+    </div>
+    <div class="card" onclick="changeColor(this, 98)">
+        <img src="https://wiki.teamfortress.com/w/images/thumb/5/59/Item_icon_Fortunate_Son.png/75px-Item_icon_Fortunate_Son.png" alt="Avatar" >
+        <div class="card-container">
+            <h1 class="card-title">Fortunate Son</h1>
+        </div>
+    </div>
+    <div class="card" onclick="changeColor(this, 99)">
+        <img src="https://wiki.teamfortress.com/w/images/thumb/8/89/Item_icon_Flak_Jack.png/75px-Item_icon_Flak_Jack.png" alt="Avatar" >
+        <div class="card-container">
+            <h1 class="card-title">Flak Jack</h1>
+        </div>
+    </div>
+    <div class="card " onclick="changeColor(this, 100)">
+        <img src="https://wiki.teamfortress.com/w/images/thumb/f/f6/Item_icon_Cadet_Visor.png/75px-Item_icon_Cadet_Visor.png" alt="Avatar" >
+        <div class="card-container">
+            <h1 class="card-title">Cadet Visor</h1>
+        </div>
+    </div>
+    <div class="card" onclick="changeColor(this, 101)">
+        <img src="https://wiki.teamfortress.com/w/images/thumb/2/2c/Item_icon_B%27aaarrgh-n-Bicorne.png/75px-Item_icon_B%27aaarrgh-n-Bicorne.png" alt="Avatar">
+        <div class="card-container">
+            <h1 class="card-title">B-aaarrgh-n-Bicorne</h1>
+        </div>
+    </div>
+    <div class="card" onclick="changeColor(this, 102)">
+        <img src="https://wiki.teamfortress.com/w/images/thumb/6/63/Item_icon_B%27aaarrgh-n-Britches.png/75px-Item_icon_B%27aaarrgh-n-Britches.png" alt="Avatar" >
+        <div class="card-container">
+            <h1 class="card-title">B-aaarrgh-n-Britches </h1>
+        </div>
+    </div>
+    <div class="card" onclick="changeColor(this, 103)">
+        <img src="https://wiki.teamfortress.com/w/images/thumb/5/55/Item_icon_Death_Racer%27s_Helmet.png/75px-Item_icon_Death_Racer%27s_Helmet.png" alt="Avatar" >
+        <div class="card-container">
+            <h1 class="card-title">Death Racer’s Helmet</h1>
+        </div>
+    </div>
+    <div class="card" onclick="changeColor(this, 104)">
+        <img src="https://wiki.teamfortress.com/w/images/thumb/6/63/Item_icon_Thrilling_Tracksuit.png/75px-Item_icon_Thrilling_Tracksuit.png" alt="Avatar" >
+        <div class="card-container">
+            <h1 class="card-title">Thrilling Tracksuit</h1>
+        </div>
+    </div>
+    <div class="card" onclick="changeColor(this, 105)">
+        <img src="https://wiki.teamfortress.com/w/images/thumb/e/e3/Item_icon_Bat_Backup.png/75px-Item_icon_Bat_Backup.png" alt="Avatar" >
+        <div class="card-container">
+            <h1 class="card-title">Bat Backup</h1>
+        </div>
+    </div>
+    <div class="card" onclick="changeColor(this, 106)">
+        <img src="https://wiki.teamfortress.com/w/images/thumb/3/39/Item_icon_Buttler.png/75px-Item_icon_Buttler.png" alt="Avatar" >
+        <div class="card-container">
+            <h1 class="card-title">Buttler</h1>
+        </div>
+    </div>
+    <div class="card" onclick="changeColor(this, 107)">
+        <img src="https://wiki.teamfortress.com/w/images/thumb/e/e6/Item_icon_Sidekick%27s_Side_Slick.png/75px-Item_icon_Sidekick%27s_Side_Slick.png" alt="Avatar">
+        <div class="card-container">
+            <h1 class="card-title">Sidekick’s Side Slick</h1>
+        </div>
+    </div>
+    <div class="card" onclick="changeColor(this, 108)">
+        <img src="https://wiki.teamfortress.com/w/images/thumb/4/4c/Item_icon_Teufort_Knight.png/75px-Item_icon_Teufort_Knight.png" alt="Avatar" >
+        <div class="card-container">
+            <h1 class="card-title">Teufort Knight </h1>
+        </div>
+    </div>
+    <div class="card" onclick="changeColor(this, 109)">
+        <img src="https://wiki.teamfortress.com/w/images/thumb/9/9d/Item_icon_Bonk_Batter%27s_Backup.png/75px-Item_icon_Bonk_Batter%27s_Backup.png" alt="Avatar" >
+        <div class="card-container">
+            <h1 class="card-title">Bonk Battler’s Backup</h1>
+        </div>
+    </div>
+    <div class="card" onclick="changeColor(this, 110)">
+        <img src="https://wiki.teamfortress.com/w/images/thumb/1/15/Item_icon_Hot_Heels.png/75px-Item_icon_Hot_Heels.png" alt="Avatar" >
+        <div class="card-container">
+            <h1 class="card-title">Hot Heels</h1>
+        </div>
+    </div>
+    <div class="card" onclick="changeColor(this, 111)">
+        <img src="https://wiki.teamfortress.com/w/images/thumb/4/46/Item_icon_Airdog.png/75px-Item_icon_Airdog.png" alt="Avatar" >
+        <div class="card-container">
+            <h1 class="card-title">Airdog</h1>
+        </div>
+    </div>
+    <div class="card" onclick="changeColor(this, 112)">
+        <img src="https://wiki.teamfortress.com/w/images/thumb/1/1f/Item_icon_Courtly_Cuirass.png/75px-Item_icon_Courtly_Cuirass.png" alt="Avatar" >
+        <div class="card-container">
+            <h1 class="card-title">Courtly Cuirass</h1>
+        </div>
+    </div>
+    <div class="card" onclick="changeColor(this, 113)">
+        <img src="https://wiki.teamfortress.com/w/images/thumb/b/bb/Item_icon_Squire%27s_Sabatons.png/75px-Item_icon_Squire%27s_Sabatons.png" alt="Avatar" >
+        <div class="card-container">
+            <h1 class="card-title">Squire’s Sabatons</h1>
+        </div>
+    </div>
+    <div class="card" onclick="changeColor(this, 114)">
+        <img src="https://wiki.teamfortress.com/w/images/thumb/f/f5/Item_icon_Herald%27s_Helm.png/75px-Item_icon_Herald%27s_Helm.png" alt="Avatar" >
+        <div class="card-container">
+            <h1 class="card-title">Herald’s Helm</h1>
+        </div>
+    </div>
+    <div class="card" onclick="changeColor(this, 115)">
+        <img src="https://wiki.teamfortress.com/w/images/thumb/1/1c/Item_icon_Pestering_Jester.png/75px-Item_icon_Pestering_Jester.png" alt="Avatar" >
+        <div class="card-container">
+            <h1 class="card-title">Pestering Jester</h1>
+        </div>
+    </div>
+    <div class="card " onclick="changeColor(this, 116)">
+        <img src="https://wiki.teamfortress.com/w/images/thumb/a/a4/Item_icon_Wing_Mann.png/75px-Item_icon_Wing_Mann.png" alt="Avatar" >
+        <div class="card-container">
+            <h1 class="card-title">Wing Mann</h1>
+        </div>
+    </div>
+    <div class="card" onclick="changeColor(this, 117)">
+        <img src="https://wiki.teamfortress.com/w/images/thumb/7/79/Flying_Guillotine.png/250px-Flying_Guillotine.png" alt="Avatar">
+        <div class="card-container">
+            <h1 class="card-title">Electric Twanger</h1>
+        </div>
+    </div>
+    <div class="card" onclick="changeColor(this, 118)">
+        <img src="https://wiki.teamfortress.com/w/images/thumb/8/8d/Item_icon_Electric_Twanger.png/75px-Item_icon_Electric_Twanger.png" alt="Avatar" >
+        <div class="card-container">
+            <h1 class="card-title">Remorseless Raptor</h1>
+        </div>
+    </div>
+    <div class="card" onclick="changeColor(this, 119)">
+        <img src="https://wiki.teamfortress.com/w/images/thumb/6/6f/Item_icon_Grounded_Flyboy.png/75px-Item_icon_Grounded_Flyboy.png" alt="Avatar" >
+        <div class="card-container">
+            <h1 class="card-title">Grounded Flyboy</h1>
+        </div>
+    </div>
+    <h1>Scout Taunts</h1>
+    <div class="card taunts" onclick="changeColor(this, 120)">
+        <img src="https://wiki.teamfortress.com/w/images/thumb/0/0d/Taunt_battin_thousand.png/250px-Taunt_battin_thousand.png" alt="Avatar" >
+        <div class="card-container">
+            <h1 class="card-title">Battin’ a Thousand</h1>
+        </div>
+    </div>
+    <div class="card taunts" onclick="changeColor(this, 121)">
+        <img src="https://wiki.teamfortress.com/w/images/thumb/5/59/Boston_Breakdance.png/250px-Boston_Breakdance.png" alt="Avatar" >
+        <div class="card-container">
+            <h1 class="card-title">Boston Breakdance</h1>
+        </div>
+    </div>
+    <div class="card taunts" onclick="changeColor(this, 122)">
+        <img src="https://wiki.teamfortress.com/w/images/thumb/4/40/Taunt_The_Bunnyhopper.png/250px-Taunt_The_Bunnyhopper.png" alt="Avatar" >
+        <div class="card-container">
+            <h1 class="card-title">Bunnyhopper</h1>
+        </div>
+    </div>
+    <div class="card taunts" onclick="changeColor(this, 123)">
+        <img src="https://wiki.teamfortress.com/w/images/thumb/f/f6/Taunt_carlton.png/250px-Taunt_carlton.png" alt="Avatar" >
+        <div class="card-container">
+            <h1 class="card-title">Carlton</h1>
+        </div>
+    </div>
+    <div class="card taunts" onclick="changeColor(this, 124)">
+        <img src="https://wiki.teamfortress.com/w/images/thumb/c/c9/Taunt_Deep_Fried_Desire.png/250px-Taunt_Deep_Fried_Desire.png" alt="Avatar" >
+        <div class="card-container">
+            <h1 class="card-title">Deep Fried Desire</h1>
+        </div>
+    </div>
+    <div class="card taunts" onclick="changeColor(this, 125)">
+        <img src="https://wiki.teamfortress.com/w/images/thumb/7/79/Taunt_Runner%27s_Rhythm.png/250px-Taunt_Runner%27s_Rhythm.png" alt="Avatar">
+        <div class="card-container">
+            <h1 class="card-title">Runner’s Rhythm</h1>
+        </div>
+    </div>
+    <div class="card taunts" onclick="changeColor(this, 126)">
+        <img src="https://wiki.teamfortress.com/w/images/thumb/c/c6/Taunt_Scooty_Scoot.png/250px-Taunt_Scooty_Scoot.png" alt="Avatar" >
+        <div class="card-container">
+            <h1 class="card-title">Scooty Scoot</h1>
+        </div>
+    </div>
+    <div class="card taunts" onclick="changeColor(this, 127)">
+        <img src="https://wiki.teamfortress.com/w/images/thumb/5/56/Taunt_The_Trackman%27s_Touchdown.png/250px-Taunt_The_Trackman%27s_Touchdown.png" alt="Avatar" >
+        <div class="card-container">
+            <h1 class="card-title">Tracksman’s Touchdown </h1>
+        </div>
+    </div>
+</div>
+    <script>
+
+        document.querySelector("#close").addEventListener("click", function() {
+            document.querySelector(".popup").style.display = "none"
+        })
+
+        function changeColor(item, int) {
+                if (item.style.backgroundColor == "green") {
+                localStorage.setItem("color" + int, "#222")
+                console.log(int)
+                item.style.backgroundColor = "#222";
+                item.style.opacity = "1";
+                localStorage.setItem("opacity" + int, "1")
+                return false;
+            }
+            item.style.backgroundColor = "green";
+            localStorage.setItem("color" + int, "green")
+            item.style.opacity = "0.5";
+            localStorage.setItem("opacity" + int, "0.5")
+            return false;
+            
+        }  
+        function loadColor() {
+            var divs = document.getElementsByClassName("card");
+            for(var i = 0; i < divs.length; i++){
+                console.log(i + "|" + localStorage.getItem("color" + i))
+                divs[i].style.backgroundColor = localStorage.getItem("color" + i)
+                divs[i].style.opacity = localStorage.getItem("opacity" + i)
+            }
+        }
+
+    </script>
+</body>
+</html>
