@@ -13,6 +13,7 @@
 
 
 .popup {
+    z-index: 9;
     background-color: #888a8a;
     width: 450px;
     padding: 30px 40px;
@@ -79,6 +80,31 @@ h1 {
             user-select: none; /* Non-prefixed version, currently
                                   supported by Chrome and Opera */
 }
+.toggleEOTL {
+    margin-left: 46%;
+    background-color: #222;
+    color: #ecf6f7;
+    border: none;
+    outline: none;
+    padding: 5px 15px;
+    font-size: 20px;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+.toggleEOTL:hover {
+    margin-left: 46%;
+    transition: 0.3s;
+    background-color: #adeeef;
+    color: #303030;
+    border: none;
+    outline: none;
+    padding: 5px 15px;
+    font-size: 20px;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
 .cards {
   margin: 1rem;
   padding: 2rem 2rem;
@@ -91,7 +117,7 @@ h1 {
     padding: 0.8rem 0.8rem;
     vertical-align: middle;
     width: 100px;
-    height: 200px;
+    height: 150px;
     
     /* Add shadows to create the "card" effect */
     background-color: #222;
@@ -119,13 +145,33 @@ h1 {
 .card-title {
     font-family: 'Inter-Reg';
 }
+.eotlcrate {
+    margin-left: 50px;
+    width: 100px;
+    height: auto;
+    margin-top: -90px;
+    display: block;
+    position: absolute;
+}
+#EOTL{
+    display: none;
+}
 .card img{
     width:80%;
     height:30%
 }
 .taunts img{
-    width:80%;
-    height:60%
+    width:100%;
+    height:80%
+}
+.hunger-on {
+    width: 100px;
+    height: 100%;
+}
+
+.card-taunts {
+    height: 210px;
+    width: 15%;
 }
 .weapons img{
     width: 80%;

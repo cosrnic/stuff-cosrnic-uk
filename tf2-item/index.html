@@ -13,6 +13,7 @@
         <br />
         
     </div>
+    <button class="toggleEOTL" onclick="toggleEOTL()">Toggle EOTL Items</button>
 
     <div class="popup">
         <button id="close">&times;</button>
@@ -24,9 +25,9 @@
     <div class="cards">
         <h1>Scout Weapons</h1>
     <div class="card weapons" onclick="changeColor(this, 0)">
-        <img src="https://wiki.teamfortress.com/w/images/thumb/8/82/Back_Scratcher.png/250px-Back_Scratcher.png" alt="Avatar" >
+        <img src="https://wiki.teamfortress.com/w/images/thumb/0/0f/Back_Scatter.png/250px-Back_Scatter.png" alt="Avatar" >
         <div class="card-container">
-            <h1 class="card-title">Back Scratcher</h1>
+            <h1 class="card-title">Back Scatter</h1>
         </div>
     </div>
     <div class="card weapons" onclick="changeColor(this, 1)">
@@ -261,8 +262,8 @@
             <h1 class="card-title">Flunkyware </h1>
         </div>
     </div>
-    <div class="card" onclick="changeColor(this, 39)">
-        <img src="https://wiki.teamfortress.com/w/images/thumb/a/a4/RED_Hanger-On_Hood_Without_Headphones.png/80px-RED_Hanger-On_Hood_Without_Headphones.png" alt="Avatar" >
+    <div class="card hunger-on" onclick="changeColor(this, 39)">
+        <img src="https://cdn.discordapp.com/attachments/942429947136442408/976541388873302096/135px-Backpack_Hanger-On_Hood.png" alt="Avatar" >
         <div class="card-container">
             <h1 class="card-title">Hunger-On Hood</h1>
         </div>
@@ -575,18 +576,35 @@
     </div>
     <div class="card special2" onclick="changeColor(this, 91)">
         <img src="https://wiki.teamfortress.com/w/images/thumb/6/62/Item_icon_Brooklyn_Booties.png/75px-Item_icon_Brooklyn_Booties.png" alt="Avatar">
+        <div class="eotlcrate"><img class="EOTLCrate" src="https://cdn.discordapp.com/attachments/942429947136442408/976515536093589554/End_of_the_Line_Crate.png"></div>
         <div class="card-container">
             <h1 class="card-title">Brooklyn Booties</h1>
             <p>Early EOTL Supporter</p>
+            
+        </div>
+    </div>
+    <div class="card eotl" id="EOTL" onclick="changeColor(this, 91)">
+        <img src="https://wiki.teamfortress.com/w/images/thumb/6/62/Item_icon_Brooklyn_Booties.png/75px-Item_icon_Brooklyn_Booties.png" alt="Avatar">
+        <div class="card-container">
+            <h1 class="card-title">Brooklyn Booties</h1>
+            
         </div>
     </div>
     <div class="card special2" onclick="changeColor(this, 92)">
         <img src="https://wiki.teamfortress.com/w/images/thumb/4/4e/Item_icon_Thermal_Tracker.png/75px-Item_icon_Thermal_Tracker.png" alt="Avatar" >
+        <div class="eotlcrate"><img class="EOTLCrate" src="https://cdn.discordapp.com/attachments/942429947136442408/976515536093589554/End_of_the_Line_Crate.png"></div>
         <div class="card-container">
             <h1 class="card-title">Thermal Tracker </h1>
             <p>Early EOTL Supporter</p>
         </div>
     </div>
+    <div class="card eotl" id="EOTL" onclick="changeColor(this, 92)">
+        <img src="https://wiki.teamfortress.com/w/images/thumb/4/4e/Item_icon_Thermal_Tracker.png/75px-Item_icon_Thermal_Tracker.png" alt="Avatar" >
+        <div class="card-container">
+            <h1 class="card-title">Thermal Tracker </h1>
+        </div>
+    </div>
+    
     <div class="card" onclick="changeColor(this, 93)">
         <img src="https://wiki.teamfortress.com/w/images/thumb/8/8a/Item_icon_Courtier%27s_Collar.png/75px-Item_icon_Courtier%27s_Collar.png" alt="Avatar" >
         <div class="card-container">
@@ -732,13 +750,13 @@
         </div>
     </div>
     <div class="card" onclick="changeColor(this, 117)">
-        <img src="https://wiki.teamfortress.com/w/images/thumb/7/79/Flying_Guillotine.png/250px-Flying_Guillotine.png" alt="Avatar">
+        <img src="https://wiki.teamfortress.com/w/images/thumb/8/8d/Item_icon_Electric_Twanger.png/75px-Item_icon_Electric_Twanger.png" alt="Avatar">
         <div class="card-container">
             <h1 class="card-title">Electric Twanger</h1>
         </div>
     </div>
     <div class="card" onclick="changeColor(this, 118)">
-        <img src="https://wiki.teamfortress.com/w/images/thumb/8/8d/Item_icon_Electric_Twanger.png/75px-Item_icon_Electric_Twanger.png" alt="Avatar" >
+        <img src="https://wiki.teamfortress.com/w/images/thumb/9/92/Item_icon_Remorseless_Raptor.png/75px-Item_icon_Remorseless_Raptor.png" alt="Avatar" >
         <div class="card-container">
             <h1 class="card-title">Remorseless Raptor</h1>
         </div>
@@ -750,50 +768,50 @@
         </div>
     </div>
     <h1>Scout Taunts</h1>
-    <div class="card taunts" onclick="changeColor(this, 120)">
-        <img src="https://wiki.teamfortress.com/w/images/thumb/0/0d/Taunt_battin_thousand.png/250px-Taunt_battin_thousand.png" alt="Avatar" >
+    <div class="card taunts card-taunts" onclick="changeColor(this, 120)">
+        <img src="https://wiki.teamfortress.com/w/images/thumb/4/4e/Item_icon_Battin%27_A_Thousand.png/100px-Item_icon_Battin%27_A_Thousand.png" alt="Avatar" >
         <div class="card-container">
             <h1 class="card-title">Battin’ a Thousand</h1>
         </div>
     </div>
-    <div class="card taunts" onclick="changeColor(this, 121)">
-        <img src="https://wiki.teamfortress.com/w/images/thumb/5/59/Boston_Breakdance.png/250px-Boston_Breakdance.png" alt="Avatar" >
+    <div class="card taunts card-taunts" onclick="changeColor(this, 121)">
+        <img src="https://wiki.teamfortress.com/w/images/thumb/5/51/Item_icon_Boston_Breakdance.png/100px-Item_icon_Boston_Breakdance.png" alt="Avatar" >
         <div class="card-container">
             <h1 class="card-title">Boston Breakdance</h1>
         </div>
     </div>
-    <div class="card taunts" onclick="changeColor(this, 122)">
-        <img src="https://wiki.teamfortress.com/w/images/thumb/4/40/Taunt_The_Bunnyhopper.png/250px-Taunt_The_Bunnyhopper.png" alt="Avatar" >
+    <div class="card taunts card-taunts" onclick="changeColor(this, 122)">
+        <img src="https://wiki.teamfortress.com/w/images/thumb/c/c5/Item_icon_Bunnyhopper.png/100px-Item_icon_Bunnyhopper.png" alt="Avatar" >
         <div class="card-container">
             <h1 class="card-title">Bunnyhopper</h1>
         </div>
     </div>
-    <div class="card taunts" onclick="changeColor(this, 123)">
-        <img src="https://wiki.teamfortress.com/w/images/thumb/f/f6/Taunt_carlton.png/250px-Taunt_carlton.png" alt="Avatar" >
+    <div class="card taunts card-taunts" onclick="changeColor(this, 123)">
+        <img src="https://wiki.teamfortress.com/w/images/thumb/3/30/Item_icon_Carlton.png/100px-Item_icon_Carlton.png" alt="Avatar" >
         <div class="card-container">
             <h1 class="card-title">Carlton</h1>
         </div>
     </div>
-    <div class="card taunts" onclick="changeColor(this, 124)">
-        <img src="https://wiki.teamfortress.com/w/images/thumb/c/c9/Taunt_Deep_Fried_Desire.png/250px-Taunt_Deep_Fried_Desire.png" alt="Avatar" >
+    <div class="card taunts card-taunts" onclick="changeColor(this, 124)">
+        <img src="https://wiki.teamfortress.com/w/images/thumb/9/98/Item_icon_Deep_Fried_Desire.png/100px-Item_icon_Deep_Fried_Desire.png" alt="Avatar" >
         <div class="card-container">
             <h1 class="card-title">Deep Fried Desire</h1>
         </div>
     </div>
-    <div class="card taunts" onclick="changeColor(this, 125)">
-        <img src="https://wiki.teamfortress.com/w/images/thumb/7/79/Taunt_Runner%27s_Rhythm.png/250px-Taunt_Runner%27s_Rhythm.png" alt="Avatar">
+    <div class="card taunts card-taunts" onclick="changeColor(this, 125)">
+        <img src="https://wiki.teamfortress.com/w/images/thumb/1/11/Item_icon_Runner%27s_Rhythm.png/100px-Item_icon_Runner%27s_Rhythm.png" alt="Avatar">
         <div class="card-container">
             <h1 class="card-title">Runner’s Rhythm</h1>
         </div>
     </div>
-    <div class="card taunts" onclick="changeColor(this, 126)">
-        <img src="https://wiki.teamfortress.com/w/images/thumb/c/c6/Taunt_Scooty_Scoot.png/250px-Taunt_Scooty_Scoot.png" alt="Avatar" >
+    <div class="card taunts card-taunts" onclick="changeColor(this, 126)">
+        <img src="https://wiki.teamfortress.com/w/images/thumb/4/48/Item_icon_Scooty_Scoot.png/100px-Item_icon_Scooty_Scoot.png" alt="Avatar" >
         <div class="card-container">
             <h1 class="card-title">Scooty Scoot</h1>
         </div>
     </div>
-    <div class="card taunts" onclick="changeColor(this, 127)">
-        <img src="https://wiki.teamfortress.com/w/images/thumb/5/56/Taunt_The_Trackman%27s_Touchdown.png/250px-Taunt_The_Trackman%27s_Touchdown.png" alt="Avatar" >
+    <div class="card taunts card-taunts" onclick="changeColor(this, 127)">
+        <img src="https://wiki.teamfortress.com/w/images/thumb/c/c2/Item_icon_Trackman%27s_Touchdown.png/100px-Item_icon_Trackman%27s_Touchdown.png" alt="Avatar" >
         <div class="card-container">
             <h1 class="card-title">Tracksman’s Touchdown </h1>
         </div>
@@ -820,7 +838,24 @@
             localStorage.setItem("opacity" + int, "0.5")
             return false;
             
-        }  
+        }    
+        function toggleEOTL() {
+            if (localStorage.getItem("eotlToggle") == "yes") {
+                document.getElementsByClassName('special2')[0].style.display = "none"
+                document.getElementsByClassName('eotl')[0].style.display = "inline-block"
+                document.getElementsByClassName('special2')[1].style.display = "none"
+                document.getElementsByClassName('eotl')[1].style.display = "inline-block"
+                localStorage.setItem("eotlToggle", "no")
+                return false;
+            } else {
+                document.getElementsByClassName('special2')[0].style.display = "inline-block"
+                document.getElementsByClassName('eotl')[0].style.display = "none"
+                document.getElementsByClassName('special2')[1].style.display = "inline-block"
+                document.getElementsByClassName('eotl')[1].style.display = "none"
+                localStorage.setItem("eotlToggle", "yes")
+                return false;
+            }
+        }
         function loadColor() {
             var divs = document.getElementsByClassName("card");
             for(var i = 0; i < divs.length; i++){
