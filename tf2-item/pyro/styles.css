@@ -1,0 +1,206 @@
+@font-face {
+    font-family: 'Inter-Reg';
+    src: url(../fonts/Inter-Regular.woff2);
+}
+@font-face {
+    font-family: 'Inter-Bold';
+    src: url(../fonts/Inter-Bold.woff2);
+}
+* {
+    font-family: 'Inter-Reg';
+    
+}
+
+.navbar {
+    padding: 5px;
+    display: inline-block;
+    align-items: center;
+    justify-content: center;
+    background-color: #222;
+    width: 99.2%;
+    font-size: 20px;
+    overflow-y: hidden;
+}
+.active {
+    color: #adeeef;
+}
+
+.popup {
+    z-index: 9;
+    background-color: #888a8a;
+    width: 450px;
+    padding: 30px 40px;
+    position: fixed;
+    transform: translate(-50%, -50%);
+    top: 50%;
+    left: 50%;
+    border-radius: 10px;;
+}
+.popup button {
+    display: block;
+    margin: 0 0 20px auto;
+    background-color: transparent;
+    font-size: 30px;
+    color: #c4c4c4;
+    border:none;
+    outline: none;
+    cursor:pointer;
+}
+.popup p{
+    font-size: 16px;
+    text-align: justify;    
+    margin: 20px 0;
+}
+a {
+    display: block;
+    width: 150px;
+    position: relative;
+    margin: auto;
+    text-align: center;
+    background-color: #222;
+    color: #ececec;
+    text-decoration: none;
+    padding: 5px 0;
+}
+
+
+
+body {
+    background-color: #303030;
+    color: #ecf6f7;
+    -webkit-touch-callout: none; /* iOS Safari */
+    -webkit-user-select: none; /* Safari */
+     -khtml-user-select: none; /* Konqueror HTML */
+       -moz-user-select: none; /* Firefox */
+        -ms-user-select: none; /* Internet Explorer/Edge */
+            user-select: none; /* Non-prefixed version, currently
+                                  supported by Chrome and Opera */
+}
+
+.content {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+h1 {
+    font-family: 'Inter-Bold';
+    -webkit-touch-callout: none; /* iOS Safari */
+    -webkit-user-select: none; /* Safari */
+     -khtml-user-select: none; /* Konqueror HTML */
+       -moz-user-select: none; /* Firefox */
+        -ms-user-select: none; /* Internet Explorer/Edge */
+            user-select: none; /* Non-prefixed version, currently
+                                  supported by Chrome and Opera */
+}
+.toggleEOTL {
+    margin-left: 46%;
+    background-color: #222;
+    color: #ecf6f7;
+    border: none;
+    outline: none;
+    padding: 5px 15px;
+    font-size: 20px;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+.toggleEOTL:hover {
+    margin-left: 46%;
+    transition: 0.3s;
+    background-color: #adeeef;
+    color: #303030;
+    border: none;
+    outline: none;
+    padding: 5px 15px;
+    font-size: 20px;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+.cards {
+  margin: 1rem;
+  padding: 2rem 2rem;
+  text-align: center;
+}
+.card {
+    margin: 5px;
+    border-radius: 10px;
+    display: inline-block;
+    padding: 0.8rem 0.8rem;
+    vertical-align: middle;
+    width: 100px;
+    height: 150px;
+    
+    /* Add shadows to create the "card" effect */
+    background-color: #222;
+    transition: 0.3s;
+    font-size: 8px;
+    overflow-wrap:break-word;
+    -webkit-touch-callout: none; /* iOS Safari */
+    -webkit-user-select: none; /* Safari */
+     -khtml-user-select: none; /* Konqueror HTML */
+       -moz-user-select: none; /* Firefox */
+        -ms-user-select: none; /* Internet Explorer/Edge */
+            user-select: none; /* Non-prefixed version, currently
+                                  supported by Chrome and Opera */
+  }
+  p {
+      font-size: 15px
+  }
+  .special {
+    border: 2px solid rgb(214, 197, 38);
+  }
+  .special2 {
+    border: 2px solid rgb(38, 188, 214);
+  }
+  
+.card-title {
+    font-family: 'Inter-Reg';
+}
+.eotlcrate {
+    margin-left: 50px;
+    width: 100px;
+    height: auto;
+    margin-top: -90px;
+    display: block;
+    position: absolute;
+}
+#EOTL{
+    display: none;
+}
+.card img{
+    width:80%;
+    height:30%
+}
+.taunts img{
+    width:100%;
+    height:80%
+}
+.hunger-on {
+    width: 100px;
+    height: 100%;
+}
+
+.card-taunts {
+    height: 210px;
+    width: 15%;
+}
+.weapons img{
+    width: 80%;
+    height: 40%;
+}
+  /* On mouse-over, add a deeper shadow */
+  
+  /* Add some padding inside the card container */
+  .card-container {
+    padding: 2px 10px;
+
+    -webkit-touch-callout: none; /* iOS Safari */
+    -webkit-user-select: none; /* Safari */
+     -khtml-user-select: none; /* Konqueror HTML */
+       -moz-user-select: none; /* Firefox */
+        -ms-user-select: none; /* Internet Explorer/Edge */
+            user-select: none; /* Non-prefixed version, currently
+                                  supported by Chrome and Opera */
+  }
